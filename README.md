@@ -5,7 +5,7 @@
 
 ## Tutorial
 
-Follow [this tutorial](https://youtu.be/p4Fk2uUnIHc) to learn how to create your own personalized, interactive 3D avatar.
+Follow [this tutorial](https://youtu.be/p4Fk2uUnIHc) to learn how to add your own personalized, interactive 3D avatar to your portfolio website.
 
 ## Live Demo
 
