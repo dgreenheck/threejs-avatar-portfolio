@@ -1,6 +1,7 @@
 # threejs-avatar-portfolio
 
-![avatar_thumbnail](https://github.com/dgreenheck/threejs-avatar-portfolio/assets/3814912/5afc5f3b-b1b3-4d87-afce-28112b803f63)
+![avatar_thumbnail](https://github.com/dgreenheck/threejs-avatar-portfolio/assets/3814912/49e56bcd-b881-43d0-9b35-ea9945547cc7)
+
 
 ## Tutorial
 
