@@ -1,0 +1,84 @@
+/* General styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(0deg, #080808, #1f1e28);
+  min-height: 100vh;
+}
+
+/* Header & Navigation styles */
+header {
+  padding: 10px 0px;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: #919090;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 3em;
+  font-weight: 100;
+  color: rgb(163, 163, 163);
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px 48px;
+}
+
+.hero {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.gradient-text {
+  background-image: linear-gradient(-45deg, rgb(177, 8, 189), rgb(88, 186, 255));
+  background-clip: text;
+  color: transparent;
+}
+
+#avatar-container {
+  height: 40vh;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatar-loading {
+  font-size: 3em;
+}
