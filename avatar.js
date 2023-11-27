@@ -6,7 +6,7 @@ window.onload = () => loadModel();
 
 function loadModel() {
   const loader = new GLTFLoader();
-  loader.load('public/avatar.glb',
+  loader.load('avatar.glb',
     (gltf) => {
       setupScene(gltf);
       document.getElementById('avatar-loading').style.display = 'none';
@@ -123,6 +123,12 @@ function setupScene(gltf) {
           setTimeout(() => isStumbling = false, 1000);
         }, 4000)
       }
+    });
+
+    window.addEventListener('resize', () => {
+      camera.aspect = container.clientWidth / container.clientHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(container.clientWidth, container.clientHeight);
     });
 
     const clock = new THREE.Clock();
